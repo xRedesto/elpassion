@@ -6,6 +6,7 @@ export const Background = styled.div`
     height: 100vh;
     background-image: url(${backgroundImage});
     background-size: cover;
+    background-position:center left calc(50% - 190px);
     display:flex;
     justify-content:center;
     align-items:center;

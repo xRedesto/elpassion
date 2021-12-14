@@ -6,15 +6,7 @@ const App = () =>{
   return (
     <div className="App">
       <Background>
-        <div>
-          <div sidemenu>
-            <div appcontrols></div>
-            <div nav></div>
-          </div>
-          <div>
-            <MainTemplate/>
-          </div>
-        </div>
+        <MainTemplate/>
       </Background>
     </div>
   );
