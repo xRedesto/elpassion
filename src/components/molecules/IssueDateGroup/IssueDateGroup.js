@@ -1,12 +1,12 @@
 import React from 'react'
-import { StyledDate } from './IssueDateGroup.styles'
+import { Wrapper, StyledDate } from './IssueDateGroup.styles'
 
 function IssueDateGroup({date, children}) {
     return (
-        <div>
+        <Wrapper>
             <StyledDate>{date}</StyledDate>
             {children}
-        </div>
+        </Wrapper>
     )
 }
 

@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.p`
-    font-size: 12px;
-    color: #e0e0e0;
+export const Wrapper = styled.div`
+    margin:9px 0;
 `
 
 export const StyledDate = styled.p`
     font-size: 12px;
+    line-height: 12px;
     color: #8a8995;
-    margin:10px 0;
+    margin-top:0;
+    margin-bottom:10px;
 `

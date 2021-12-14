@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
     }
 `
 export const StyledTitle = styled.h3`
-    font-weight: normal;
+    font-weight: 500;
     font-size: 15px;
     margin:0;
 `
