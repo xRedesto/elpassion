@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
     display: flex;
     justify-content: flex-start;
     align-items:center;
-    padding:18px;
+    padding: 17px 18px;
     cursor: pointer;
     transition: background-color 300ms;
     &.-active, &:hover{
@@ -18,7 +18,6 @@ export const Wrapper = styled.div`
 export const StyledTitle = styled.h3`
     color: #fff;
     font-size: 14px;
-    letter-spacing: 0.5px;
     font-weight:400;
     margin:0;
 `

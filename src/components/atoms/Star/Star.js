@@ -5,6 +5,7 @@ import {ReactComponent as StarIcon} from 'assets/icons/icon-star.svg'
 
 const StyledStarIcon = styled(StarIcon)`
     margin-left:15px;
+    cursor: pointer;
     
     .cls-1{
         fill: ${(props) => props.checked ? '#21233d' : 'white'};
@@ -15,9 +16,7 @@ const StyledStarIcon = styled(StarIcon)`
 
 const Star = (props) =>{
     return (
-        <div>
-            <StyledStarIcon {...props} />
-        </div>
+        <StyledStarIcon {...props} />
     )
 }
 

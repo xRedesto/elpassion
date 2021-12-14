@@ -5,9 +5,9 @@ import {Wrapper} from './AppControls.styles'
 const AppControls = () => {
     return (
         <Wrapper>
-            <CircleButton color="tomato"/>
-            <CircleButton color="orange"/>
-            <CircleButton color="green"/>
+            <CircleButton type="close"/>
+            <CircleButton type="expand"/>
+            <CircleButton type="hide"/>
         </Wrapper>
     )
 }
